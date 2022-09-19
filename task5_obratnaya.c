@@ -15,7 +15,7 @@ void obratn (int N, int* a, int* res) {
 
 int main()
 {
-    int N; // длина перестановок
+    int N; //  длина перестановок
     printf ("Введите длину перестановки:");
     scanf ("%d", &N);
     int* a = (int*)malloc(N * sizeof(int));
