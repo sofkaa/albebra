@@ -8,7 +8,7 @@ int main()
     scanf ("%d", &N);
     int* a = (int*)malloc(N * sizeof(int));
     int* b = (int*)malloc(N * sizeof(int));
-    int* c = (int*)malloc(N * sizeof(int)); // результат умножения
+    int* c = (int*)malloc(N * sizeof(int)); //  результат умножения
     printf ("Введите перестановку A: ");
     for (int i = 0; i < N; i++) {
         int ai;
