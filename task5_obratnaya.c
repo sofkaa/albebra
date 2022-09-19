@@ -2,14 +2,7 @@
 #include <stdlib.h> 
 
 void obratn (int N, int* a, int* res) {
-    for (int i = 0; i < N; i++) {
-        for (int j = 0; j < N; j++) {
-            if (a[j] == i + 1) {
-                res[i] = j;
-                break;
-            }
-        }
-    }
+    for (int i = 0; i < N; i++) res[a[i] - 1] = i;
     return;
 }
 
